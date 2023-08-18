@@ -803,7 +803,7 @@ footer {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .footer-subscription-form {
   display: flex;
@@ -851,16 +851,18 @@ background: var(--iris, #4D5AE5);
 display: inline-flex;
 justify-content: center;
 align-items: center;
-gap: 16px;
 padding: 8px 24px;
 margin-left: 24px;
 width: 165px;
 height: 40px;
 border: none;
+cursor: pointer;
+min-width: 165px; 
 }
 
 .subscribe-button-img {
   fill: #FFF;
+  margin-left: 16px;
 }
 
 /**
