@@ -225,8 +225,6 @@ header .container {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
 .contacts.list.email {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -464,8 +462,6 @@ header .container {
   justify-content: center;
 }
 
-
-
 .social-list-icon {
   fill: #f4f4fd;
 }
@@ -582,8 +578,6 @@ header .container {
 .menu-portfolio.link.active {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
 
 .portfolio-section .list {
   display: flex;
@@ -798,6 +792,77 @@ footer {
   margin-right: 120px;
 }
 
+.footer-social-container {
+  margin-right: 80px;
+}
+
+.footer-subscription {
+}
+.footer-subscription-text {
+  color: #fff;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  padding-bottom: 16px;
+}
+.footer-subscription-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-form-input {
+background-color: inherit;
+width: 264px;
+height: 40px;
+border-radius: 4px;
+border: 1px solid var(--white, #FFF);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+padding-left: 16px;
+color: #fff;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 200% */
+letter-spacing: 0.48px;
+}
+
+
+.footer-form-input::placeholder {
+  color: var(--white, #FFF);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 200% */
+letter-spacing: 0.48px;
+padding-top: 8px;
+}
+
+.subscribe-button {
+  color: #FFF;
+text-align: center;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.64px;
+border-radius: 4px;
+background: var(--iris, #4D5AE5);
+display: inline-flex;
+justify-content: center;
+align-items: center;
+gap: 16px;
+padding: 8px 24px;
+margin-left: 24px;
+width: 165px;
+height: 40px;
+border: none;
+}
+
+.subscribe-button-img {
+  fill: #FFF;
+}
+
 /**
   |============================
   | MODAL WINDOW MAIN PAGE
@@ -866,4 +931,15 @@ footer {
 .modal-window-close-button:hover .modal-window-close-button-image,
 .modal-window-close-button:focus .modal-window-close-button-image {
   fill: #fff;
+}
+
+.modal-header {
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  padding-top: 72px;
 }
