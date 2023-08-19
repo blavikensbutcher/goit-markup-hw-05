@@ -954,9 +954,6 @@ footer {
   margin-bottom: 16px;
 }
 
-.modal-form {
-}
-
 .modal-form-section {
   margin-bottom: 8px;
 }
@@ -978,6 +975,7 @@ footer {
   letter-spacing: 0.04em;
   margin-bottom: 4px;
 }
+
 .modal-form-input {
   display: block;
   border-radius: 4px;
@@ -991,10 +989,11 @@ footer {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-input:focus-visible {
+.modal-form-input:focus {
   border-radius: 4px;
   border: 1px solid var(--iris, #4d5ae5);
 }
+
 
 .modal-input-image {
   position: absolute;
@@ -1004,15 +1003,13 @@ footer {
   fill: #2e2f42;
   pointer-events: none;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: none;
 }
 
-/* ????? */
-.modal-form-input:focus 
-.modal-input-image {
+
+.modal-form-input:focus + .modal-input-image {
   fill: #4d5ae5;
 }
-
-/* ?????? */
 
 .modal-form-comment {
   color: rgba(46, 47, 66, 0.4);
@@ -1067,16 +1064,30 @@ footer {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .user-privacy-accept-icon {
 }
 
-.checkbox:checked .checkbox-span {
+.user-privacy-descr {
+  color: var(--lightslate, #8E8F99);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+}
+
+/* ????? */
+
+/* CHECKBOX */
+.checkbox:checked ~ .checkbox-span {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD; 
 }
+/* ????? */
 
 .send-form-button {
   color: var(--white, #fff);
