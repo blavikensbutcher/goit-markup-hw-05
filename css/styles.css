@@ -1006,9 +1006,13 @@ footer {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-input:focus .modal-input-image {
+/* ????? */
+.modal-form-input:focus 
+.modal-input-image {
   fill: #4d5ae5;
 }
+
+/* ?????? */
 
 .modal-form-comment {
   color: rgba(46, 47, 66, 0.4);
@@ -1035,7 +1039,7 @@ footer {
   color: var(--navyblue-modal, rgba(46, 47, 66, 0.4));
 }
 
-.privacy-policy-checkbox {
+.checkbox {
   display: inline-block;
 }
 
@@ -1048,9 +1052,10 @@ footer {
   color: #8e8f99;
 }
 .privacy-policy-link {
+  color: #4d5ae5;
 }
 
-.privacy-policy-visible-checkbox {
+.checkbox-span {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1067,10 +1072,10 @@ footer {
 .user-privacy-accept-icon {
 }
 
-.privacy-policy-checkbox:checked .user-privacy-accept-icon {
+.checkbox:checked .checkbox-span {
   background-color: #404bbf;
   border: none;
-  fill: #f4f4fd;
+  fill: #F4F4FD; 
 }
 
 .send-form-button {
@@ -1091,4 +1096,7 @@ footer {
   margin-top: 16px;
   margin-left: auto;
   margin-right: auto;
+  min-width: 169px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
