@@ -961,10 +961,15 @@ footer {
   margin-bottom: 8px;
 }
 
+.modal-form-comment-section {
+  margin-bottom: 16px;
+}
+
 .form-div-section {
   position: relative;
   margin-bottom: 8px;
 }
+
 .modal-form-label {
   display: block;
   color: #8e8f99;
@@ -1059,6 +1064,15 @@ footer {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.user-privacy-accept-icon {
+}
+
+.privacy-policy-checkbox:checked .user-privacy-accept-icon {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
 .send-form-button {
   color: var(--white, #fff);
   text-align: center;
@@ -1077,13 +1091,4 @@ footer {
   margin-top: 16px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.user-privacy-accept-icon {
-}
-
-.privacy-policy-checkbox:checked .privacy-policy-visible-checkbox {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;  
 }
