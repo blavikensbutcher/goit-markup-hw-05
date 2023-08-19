@@ -994,6 +994,10 @@ footer {
   border: 1px solid var(--iris, #4d5ae5);
 }
 
+.privacy-section {
+  margin-bottom: 24px;
+}
+
 
 .modal-input-image {
   position: absolute;
