@@ -1086,7 +1086,7 @@ footer {
 /* ????? */
 
 /* CHECKBOX */
-.checkbox:checked ~ .checkbox-span {
+.checkbox:checked + .privacy-policy-text .checkbox-span {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD; 
